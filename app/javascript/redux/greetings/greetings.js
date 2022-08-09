@@ -1,7 +1,7 @@
-const FETCHED = 'helloRailsReact/greetings/FETCHED';
+const GET_GREETING = 'helloRailsReact/GET_GREETING';
 
 const greetingFetched = (text) => ({
-  type: FETCHED,
+  type: GET_GREETING,
   payload: {
     text,
   },
@@ -19,7 +19,7 @@ export const getGreeting = () => (dispatch) => {
 
 export default function reducer(state = [], action) {
   switch (action.type) {
-    case FETCHED:
+    case GET_GREETING:
       return action.payload.text;
     default:
       return state;
