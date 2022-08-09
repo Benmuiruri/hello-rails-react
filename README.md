@@ -1,24 +1,57 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
+# Ruby on Rails - Rails Mint
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> A Rails React application that displays greetings from around the world
 
-Things you may want to cover:
 
-* Ruby version
+## Built With
 
-* System dependencies
+- **Ruby**
+- **Rails**
+- **Postgresql**
+- **React**
 
-* Configuration
+## Methodology used 
+- TDD via RSPEC
+  
+## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-* Database creation
 
-* Database initialization
+## Prerequisites
 
-* How to run the test suite
+- You need Ruby v3+, Rails v7+ and Postgresql installed on your machine.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Setup
+- Clone the project `git@github.com:Benmuiruri/hello-rails-react.git`
+- navigate to the folder `cd hello-rails-react`
+- Install required gems `bundle install`
+- Load the database `rails db:reset`
 
-* Deployment instructions
+## Usage
+- start the  rails server `rails server`
+- start the react server `./bin/webpack-dev-server`
 
-* ...
+- Enjoy interacting with the app.
+
+## Author
+
+👤 **Ben Kiarie**
+
+- GitHub: [Ben Kiarie](https://github.com/Benmuiruri) - Follow me on Github, browse my projects, and leave a star for any project you like.
+- Twitter: [Optimize](https://twitter.com/_optimize) - Follow me on Twitter I will make your Timeline a bit more interesting
+- LinkedIn: [Ben Kiarie](https://www.linkedin.com/in/benjamin-kiarie-180b66149/) - Connect with me on LinkedIn and help each other grow professionally
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Benmuiruri/rails-mint/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+Hat tip to anyone whose code inspired our project
+  
