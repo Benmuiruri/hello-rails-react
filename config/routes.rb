@@ -1,3 +1,11 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get 'greetings', to: 'greetings#index'
+
+    #Forward all requests to StaticController#index except root path
+  get '*page', to: 'static#index', constraints: ->(req) do
+    !req.xhr? && req.format.html?
+  end
+
+  #Forward root to StaticController#index
+  root 'static#index'
 end
