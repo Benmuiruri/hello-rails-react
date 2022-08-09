@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# Ruby on Rails - Rails Mint
+# Hello Rails React App
 
 > A Rails React application that displays greetings from around the world
 
@@ -46,7 +46,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Benmuiruri/rails-mint/issues).
+Feel free to check the [issues page](https://github.com/Benmuiruri/hello-rails-react/issues).
 
 ## Show your support
 
